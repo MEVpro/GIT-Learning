@@ -28,9 +28,9 @@
 - **git push**                                    --| отправляет файлы на remote<br>
 - **git push origin [Branch]**                    --| copy specified branch to the same remote branch (no matter where HEAD)<br>
 - **git push origin [Branch]:[remoteBranch]**     --| copy specified branch to the specified remote branch (no matter where HEAD) <br>
-                                                *if remote branch does not exist git creates*<br>
+                                                *if remote branch does not exist git creates it*<br>
 - **git pull origin [Branch]:[remoteBranch]**     --| copy specified branch to the specified local branch (no matter where HEAD) <br>
-                                                *if local branch does not exist git creates*<br>
+                                                *if local branch does not exist git creates it*<br>
 - **git fetch origin [Branch]:[remoteBranch]**    --| copy specified branch to the specified local branch (no matter where HEAD) <br>
                                                 *if local branch does not exist git creates*<br>
 - **git branch -u [remoteBranch] [Branch]**       --| set local branch to track remote<br>
