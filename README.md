@@ -3,7 +3,7 @@
 ---
 - **git**<br>
 - **git help**<br>
-- **git commit**<br>                              --| make commit |<br>
+- **git commit**                                  --| make commit |<br>
 - **git branch** [Branch]                         --| создать ветку create branch<br>
 - **git checkout [Branch or Commit]**             --| перейти в ветку<br>
 - **git checkout -b [Branch]**                    --| создать и перейти в ветку ("-b"="branch") <br>
