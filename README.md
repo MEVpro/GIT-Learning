@@ -1,9 +1,9 @@
 # GIT-Learning
 [Easy tool to learn basic git](https://learngitbranching.js.org/?locale=en_US&DEMO=)<br>
 ---
-git<br>
-git help<br>
-git commit<br>                                  | make commit
+- git<br>
+- git help<br>
+git commit                                      | make commit<br>
 git branch [Branch]                             | создать ветку create branch<br>
 git checkout [Branch or Commit]                 | перейти в ветку<br>
 git checkout -b [Branch]                        | создать и перейти в ветку ("-b"="branch") <br>
