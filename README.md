@@ -25,8 +25,8 @@
 - **git rebase -i [HEAD^ or HEAD~4]**             ---- *interactive copy commits form branch* to main*<br>
 - **git tag [Tag] [Commit]**                      ---- *give tag to commit*<br>
 - **git describe [Branch]**                       ---- *output: <tag>_<numCommits>_g<hash>*<br>
-- **~ [number]**                                  ---- *1 step back by branch +*<br>
-- **^ [number]**                                  ---- *1 step back by branch subsequence +*<br>
+- **~[number]**                                   ---- *1 step back by branch +*<br>
+- **^[number]**                                   ---- *1 step back by branch subsequence +*<br>
 - **git clone**                                   ---- *make a copy of repository*<br>
 - **git fetch**                                   ---- *synchronization local repository with remote (only download but not install)*<br>
 - **git pull**                                    ---- *fetch + merge*<br>
