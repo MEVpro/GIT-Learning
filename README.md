@@ -5,7 +5,7 @@
 - **git help**<br>
 - **git status**<br>
 - **git add**<br>
-- **git add .**<br>                               --| add all files |<br>
+- **git add .**                                   --| add all files |<br>
 - **git commit -m "..."**                         --| make commit |<br>
 - **git commit --amend -m "..."**                 --| make to the last commit |<br>
 - **git branch**                                  --| check branches status<br>
