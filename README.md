@@ -4,8 +4,13 @@
 - **git**<br>
 - **git help**<br>
 - **git status**<br>
-- **git commit**                                  --| make commit |<br>
-- **git branch** [Branch]                         --| создать ветку create branch<br>
+- **git add**<br>
+- **git add .**<br>                               --| add all files |<br>
+- **git commit -m "..."**                         --| make commit |<br>
+- **git commit --amend -m "..."**                 --| make to the last commit |<br>
+- **git branch**                                  --| check branches status<br>
+- **git branch -D [Branch]**                      --| delete branch<br>
+- **git branch [Branch]**                         --| create branch<br>
 - **git checkout [Branch or Commit]**             --| перейти в ветку<br>
 - **git checkout -b [Branch]**                    --| создать и перейти в ветку ("-b"="branch") <br>
 - **git merge**                                   --| объединение текущей ветки с ...веток<br>  
@@ -16,7 +21,7 @@
 - **git branch -f [Branch] [HEAD^ or Commit]**    --| перемещает ветку (by force) по дереву<br>
 - **git reset [Branch]**                          --| restart branch from another comment (for local git)<br>
 - **git revert [Branch]**                         --| restart branch from another comment (for pushed git)<br>
-- **git cherry-pick [Commit] [Commit] [...]**     --| copy commits from anywhere to head branch*( в какую ветку копирую)<br>
+- **git cherry-pick [Commit] [Commit] [...]**     --| copy commits from anywhere to head branch*<br>
 - **git rebase -i [HEAD^ or HEAD~4]**             --| interactive copy commits form branch* to main<br>
 - **git tag [Tag] [Commit]**                      --| give tag to commit<br>
 - **git describe [Branch]**                       --| output: <tag>_<numCommits>_g<hash><br>
