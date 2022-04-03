@@ -8,7 +8,7 @@
 - **git add .** -------------------------------------- add all files<br>
 - **git commit -m "..."**----------------------------- make commit |<br>
 - **git commit --amend -m "..."**--------------------- make to the last commit |<br>
-- **git branch**                                  ---- *check branches status<br>
+- **git branch**                                  ---- *check branches status*<br>
 - **git branch -D [Branch]**                      ---- delete branch<br>
 - **git branch [Branch]**                         ---- create branch<br>
 - **git checkout [Branch or Commit]**             ---- перейти в ветку<br>
